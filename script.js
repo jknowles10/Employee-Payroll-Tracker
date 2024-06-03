@@ -14,10 +14,6 @@ function Employee () {
     this.salary = 0;
   }
   
-  console.log(this.firstName);
-  console.log(this.lastName);
-  console.log(this.salary);
-
 }
 // Need to create a function to capture user input data to create new array
 const employeesArray = [];
@@ -41,19 +37,26 @@ const collectEmployees = function() {
 }
 
 // Display the average salary
-const displayAverageSalary = function(employeesArray) {
- 
-  };
+const displayAverageSalary = function(employeesArray) 
   // TODO: Calculate and display the average salary
-  const averageSalary = function(employeesArray)
-{ 
 
- console.log(displayAverageSalary);
-}
+ { let totalSalary= 0;
+ for (let i = 0; i< employeesArray.length; i++) {
+  totalSalary += employeesArray[i].salary;}
+  let averageSalary = totalSalary/employeesArray.length;
+  console.log(`The average salary of all employees is ${averageSalary.toLocaleString("en-US",{
+    style:"currency",
+    currency:"USD"
+  })}`);
+ }
+   
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  let randomEmployee = Math.floor(Math.random() * employeesArray.length);
+  console.log(`Congratulations to ${employeesArray[randomEmployee].firstName} ${employeesArray[randomEmployee].lastName}, our random drawing winner!`);
+  
 }
 
 /*
