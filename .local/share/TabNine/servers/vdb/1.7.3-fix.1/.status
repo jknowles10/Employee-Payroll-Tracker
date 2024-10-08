@@ -1,0 +1,8 @@
+{
+  "RunningV3": {
+    "pid": 2533,
+    "assigned_ports": {
+      "QDRANT__SERVICE__GRPC_PORT": 46423
+    }
+  }
+}

@@ -2,18 +2,42 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/julienneknowles/git-projects": "__default__profile__",
             "file:///home/julienneknowles": "__default__profile__",
             "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS": "__default__profile__",
             "file:///home/julienneknowles/git-projects/challenge-2": "__default__profile__",
             "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS/02-Challenge": "__default__profile__",
             "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/02-Challenge": "__default__profile__",
             "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/01-Activities": "__default__profile__",
-            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs": "__default__profile__",
             "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript": "__default__profile__",
-            "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker": "__default__profile__"
+            "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Personal-Blog": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Github-Practice-Repo": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/05-Third-Party-APIs": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Task-Board": "__default__profile__",
+            "file:///home/julienneknowles/git-projects": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/06-Server-Side-APIs": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Weather-Dashboard": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Marvel-Weather-App": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/09-NodeJS": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/10-OOP": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/10-OOP": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Readme-Creator": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/11-Express": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Note-Taker": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Employee-Tracker": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/12-SQL": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/13-ORM": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/e-commerce-backend": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/14-MVC": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Tech-Blog": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/P2-Pantry_Pals": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/Text-Editor": "__default__profile__",
+            "file:///home/julienneknowles/git-projects/React-Portfolio-main": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1728424469102": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -22,16 +46,20 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs"
+                "folderUri": "file:///home/julienneknowles/git-projects/P2-Pantry_Pals"
             },
             {
-                "folderUri": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript"
+                "folderUri": "file:///home/julienneknowles/git-projects/Text-Editor"
             },
             {
-                "folderUri": "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker"
+                "folderUri": "file:///home/julienneknowles/git-projects/React-Portfolio-main"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1728424469102"
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -81,111 +109,111 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker",
-                                        "path": "/home/julienneknowles/git-projects/Employee-Payroll-Tracker",
+                                        "external": "file:///home/julienneknowles/git-projects/React-Portfolio-main",
+                                        "path": "/home/julienneknowles/git-projects/React-Portfolio-main",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/Employee-Payroll-Tracker"
+                                    "label": "~/git-projects/React-Portfolio-main"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript",
+                                        "external": "file:///home/julienneknowles/git-projects/Text-Editor",
+                                        "path": "/home/julienneknowles/git-projects/Text-Editor",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript"
+                                    "label": "~/git-projects/Text-Editor"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs",
+                                        "external": "file:///home/julienneknowles/git-projects/P2-Pantry_Pals",
+                                        "path": "/home/julienneknowles/git-projects/P2-Pantry_Pals",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs"
+                                    "label": "~/git-projects/P2-Pantry_Pals"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/01-Activities",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/01-Activities",
+                                        "external": "file:///home/julienneknowles/git-projects/Tech-Blog",
+                                        "path": "/home/julienneknowles/git-projects/Tech-Blog",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/01-Activities"
+                                    "label": "~/git-projects/Tech-Blog"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/02-Challenge",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/02-Challenge",
+                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/14-MVC",
+                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/14-MVC",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/03-JavaScript/02-Challenge"
+                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/14-MVC"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS/02-Challenge",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS/02-Challenge",
+                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/13-ORM",
+                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/13-ORM",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS/02-Challenge"
+                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/13-ORM"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS",
-                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS",
+                                        "external": "file:///home/julienneknowles/git-projects/e-commerce-backend",
+                                        "path": "/home/julienneknowles/git-projects/e-commerce-backend",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/02-Advanced-CSS"
+                                    "label": "~/git-projects/e-commerce-backend"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects/challenge-2",
-                                        "path": "/home/julienneknowles/git-projects/challenge-2",
+                                        "external": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/12-SQL",
+                                        "path": "/home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/12-SQL",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects/challenge-2"
+                                    "label": "~/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/12-SQL"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles",
-                                        "path": "/home/julienneknowles",
+                                        "external": "file:///home/julienneknowles/git-projects/Employee-Tracker",
+                                        "path": "/home/julienneknowles/git-projects/Employee-Tracker",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/julienneknowles"
+                                    "label": "~/git-projects/Employee-Tracker"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/julienneknowles/git-projects",
-                                        "path": "/home/julienneknowles/git-projects",
+                                        "external": "file:///home/julienneknowles/git-projects/Note-Taker",
+                                        "path": "/home/julienneknowles/git-projects/Note-Taker",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git-projects"
+                                    "label": "~/git-projects/Note-Taker"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -892,8 +920,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -910,8 +937,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -980,45 +1006,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1802,62 +1837,61 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker",
-            "backupPath": "/home/julienneknowles/.config/Code/Backups/f1de4d1ae6fe6e7e75cfd90a6efe02fc",
+            "folder": "file:///home/julienneknowles/git-projects/React-Portfolio-main",
+            "backupPath": "/home/julienneknowles/.config/Code/Backups/87b978adfe3470b29620c02d6586008a",
             "uiState": {
                 "mode": 1,
-                "x": 25,
+                "x": 171,
                 "y": 40,
-                "width": 1315,
+                "width": 1024,
                 "height": 688
             }
         },
         "openedWindows": [
             {
-                "folder": "file:///home/julienneknowles/git-projects/UTA-VIRT-FSF-PT-05-2024-U-LOLC/04-Web-APIs",
-                "backupPath": "/home/julienneknowles/.config/Code/Backups/eb985d319d3d9015be259026733a7a36",
+                "backupPath": "/home/julienneknowles/.config/Code/Backups/1728424469102",
                 "uiState": {
                     "mode": 1,
-                    "x": 252,
+                    "x": 171,
                     "y": 40,
-                    "width": 862,
+                    "width": 1024,
                     "height": 688
                 }
             },
             {
-                "folder": "file:///home/julienneknowles/git-projects/Employee-Payroll-Tracker",
-                "backupPath": "/home/julienneknowles/.config/Code/Backups/f1de4d1ae6fe6e7e75cfd90a6efe02fc",
+                "folder": "file:///home/julienneknowles/git-projects/React-Portfolio-main",
+                "backupPath": "/home/julienneknowles/.config/Code/Backups/87b978adfe3470b29620c02d6586008a",
                 "uiState": {
                     "mode": 1,
-                    "x": 25,
+                    "x": 171,
                     "y": 40,
-                    "width": 1315,
+                    "width": 1024,
                     "height": 688
                 }
             }
         ]
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#282c34",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "background": "#282c34",
+            "editorBackground": "#282c34",
+            "titleBarBackground": "#21252b",
+            "activityBarBackground": "#333842",
+            "sideBarBackground": "#21252b",
+            "statusBarBackground": "#21252b",
+            "statusBarNoFolderBackground": "#21252b"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 195,
+            "sideBarWidth": 179,
             "statusBarHeight": 22,
             "windowBorder": false
         }

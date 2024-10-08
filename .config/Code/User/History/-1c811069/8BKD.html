@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  </head>
+
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Weather Dashboard
+      </h1>
+      
+      <h1>
+        Enter City
+      </h1>
+      <form id="city-form">
+      <input id="city-input" class="input is-rounded" type="text" placeholder="Enter City" style="width: 500px" />
+      
+      <button id="submit-button"> Submit </button>
+    </form>
+    </div>
+
+    <div class="column">
+        <div class="box" style="width:500px">
+          <p class="title is-5">City</p>
+        </div>
+      </div>
+    </div>
+      
+  </section>
+
+  <section class="section">
+    <h1 class="title">Five-Day Forecast</h1>
+    <div class="columns"> 
+
+ <div class="column"> Day 1
+    <div id= "forecast-card" class="card">
+        <div class="card-content">
+          <div class="content">
+            High:
+            Low:
+            Humidity:
+          </div>
+        </div>
+    </div>
+</div>
+
+      <div class="column">Day 2
+      <div id="forecast-card" class="card">
+        <div class="card-content">
+          <div class="content">
+            High:
+            Low:
+            Humidity:
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="column"> Day 3
+    <div id="forecast-card" class="card">
+        <div class="card-content">
+          <div class="content">
+            High:
+            Low:
+            Humidity:
+          </div>
+        </div>
+      </div>
+    </div> 
+
+<div class="column">Day 4  
+    <div id="forecast-card" class="card">
+        <div class="card-content">
+          <div class="content">
+            High:
+            Low:
+            Humidity:
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="column">Day 5        
+   <div id="forecast-card" class="card">
+    <div class="card-content">
+        <div class="content">
+        High:
+        Low:
+        Humidity:
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+  </section>
+
+  <script src="script.js"></script>
+  </body>
+</html>

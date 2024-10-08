@@ -1,0 +1,143 @@
+<section class="section">
+    <div class="container">
+        <h1 class="title">Welcome to Your Dashboard {{username}}!</h1> {{! update function if time allows }}
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <div class="box">
+                    <figure class="image is-128x128 mb-4">
+                        <img src="https://api.dicebear.com/6.x/adventurer/svg?seed={{username}}" style="transform: scaleX(-1)" alt="{{username}}'s avatar" class="is-rounded">
+                    </figure>
+                    <p class="title is-5">{{username}}</p>
+                    <p class="subtitle is-6">{{email}}</p>
+                    <p>Member since: {{formatDate created}}</p>
+                </div>
+                <div class="box">
+                    <h2 class="title is-4">Your Stats</h2> {{! update function if time allows }}
+                    <p>Total Items: {{totalItems}}</p>
+                    <p>Last Login: {{formatDate last_login}}</p>
+                    <p>Total # of Logins: {{logins}}</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <h2 class="title is-4">Your Items</h2>
+                    <ul id="items-list" class="items-list">
+                        {{#if items}}
+                            {{#each items}}
+                                <li class="item-card">
+                                    <span class="item-icon">{{this.icon}}</span>
+                                    <div class="item-details">
+                                        <h3 class="item-name">{{this.item}}</h3>
+                                        <p class="item-date">Expires: {{formatDate exp_date}}</p>
+                                    </div>
+                                </li>
+                            {{/each}}
+                        {{else}}
+                            <p>You haven't added any items yet.</p>
+                        {{/if}}
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="title is-4">Add New Item</h2>
+                    <form id="stock-form" action="/api/stock" method="POST">
+                        <div class="field">
+                            <label class="label" for="item-name">Add Items:</label>
+                            <div class="control">
+                                <input class="input" type="text" id="item-name" placeholder="Enter Item" name="item-name" required />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="icon">Select Icon</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select id="icon" name="icon" required>
+                                        <option value="">Select an icon</option>
+                                        <option value="apple">🍎 Apple</option>
+                                        <option value="carrot">🥕 Carrot</option>
+                                        <option value="pepper">🌶️ Pepper</option>
+                                        <option value="fish">🐟 Fish</option>
+                                        <option value="cheese">🧀 Cheese</option>
+                                        <option value="egg">🥚 Egg</option>
+                                        <option value="bread">🍞 Bread</option>
+                                        <option value="bacon">🥓 Bacon</option>
+                                        <option value="pizza">🍕 Pizza</option>
+                                        <option value="seedling">🌱 Seedling</option>
+                                        <option value="cookie">🍪 Cookie</option>
+                                        <option value="rice">🍚 Rice</option>
+                                        <option value="bottle">🍶 Bottle</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="expiration-date">Expiration Date:</label>
+                            <div class="control">
+                                <input class="input" type="date" id="expiration-date" name="expiration-date" required/>
+                            </div>
+                        </div>
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button type="submit" class="button is-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include the external JavaScript files -->
+
+<script src="/js/dashboard.js"></script>
+<script src="/js/stock-form.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        tippy('#expiration-date', {
+        content:    
+`	Refrigerated Items:
+    1.	Milk: 7–10 days
+	2.	Eggs: 3–5 weeks, hard-boiled: 1 week
+    3.  Bacon: 2 weeks (unopened), 1 week (opened)
+    5.	Cheese(Hard): 3–4 weeks
+    6.  Bread: 2 weeks
+	3.	Chicken(Raw): 1–2 days
+    6.	Ground Beef: 1–2 days
+    7.  Deli Meat: 2 weeks (unopened), 3-5 days (opened)
+	4.	Apples: 4–6 weeks
+    5.  Berries: 5 days
+    6.  Lemon/Lime: 3 weeks
+	7.	Butter: 1–3 months
+	8.	Yogurt: 2 weeks
+	9.	Carrots: 3–4 weeks
+	10. Lettuce: 1 week
+    11. Brocolli/Cauliflower: 1 week
+    12. Chard/Kale/Spinach: 5 days
+	11.	Fruit Juice: 1–2 weeks
+	12.	Rice: 6 months(cooked)
+    13. Jelly/Jam/Preserves: 1 year (unopened), 8 months (opened)
+    14. Nut Butter: 6-9 months
+    15. Mayonnaise: 4 months (unopened), 2 months (opened)
+    16. Ketchup: 1 year (unopened), 5 months (opened)
+    17. Mustard: 2 years (unopened), 1 year (opened)
+    18. Pickles/Olives/Relishes: 1 year (unopened), 3 months (opened)
+
+    Pantry Items:
+    1.	Onions: 1–2 months
+    2.	Potatoes: 1–2 weeks
+    3.	Tomatoes: 1 week
+    4.	Apples: 5–7 days
+    5.  Bananas: 2–7 days
+    6.  Bread: 5–7 days
+    7. Olive Oil: 18-24 months
+    8. Oils(Canola/Corn/Vegetable): 1-2 years (unopened), 6-8 months (opened)`,
+    trigger: 'focus',
+    interactive: true,
+    });
+    });
+</script>
+
+</body>
+</html>

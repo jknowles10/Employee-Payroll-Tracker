@@ -1,0 +1,1 @@
+{"version":4636,"config":{"vector_data":{},"sparse_vector_data":{"text":{"index":{"full_scan_threshold":null,"index_type":"MutableRam"}}},"payload_storage_type":{"type":"on_disk"}}}
